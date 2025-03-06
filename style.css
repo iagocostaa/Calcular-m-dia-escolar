@@ -1,0 +1,111 @@
+/*Desenvolvido por: Iago Costa*/
+
+
+h1 {
+    text-align: center;
+    color: #0000CD;
+    font-family: Arial, sans-serif;
+}
+
+mark {
+    background: #0000FF;
+    color: #fff;
+    padding: 0.1rem;
+    border-radius: 0.2rem
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #A9A9A9;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Remove a rolagem invisível */
+    display: flex;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+}
+
+button {
+    background: #0000FF;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+button:hover {
+    background: #1C1C1C;
+}
+
+.formulario {
+    width: 100%;
+    max-width: 600px;
+    background: #ffffff;
+    margin: 2rem auto;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.15);
+}
+
+label {
+    width: 100%;
+    color: #777;
+    align-items: flex-start;
+    transition: 0.15s linear;
+    margin-bottom: 1rem;
+}
+
+label:focus-within {
+    color: #0000CD	;
+}
+
+input, select {
+    font-size: 1.1875rem;
+    color: #404040;
+    padding: 0.5rem;
+    width: 100%;
+    border: none;
+    border-color: #a0a0a0;
+    border-bottom-width: 0.5px;
+    border-bottom-style: dotted;
+    margin-bottom: 1px;
+    transition: 0.15s linear;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #0000CD;
+}
+
+.rodape {
+    font-size: 0.7em;
+    color: #000000;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .formulario {
+        padding: 1rem;
+    }
+}
+
+.aprovado {
+    color: green;
+    font-weight: bold;
+}
+
+.reprovado {
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calcular média</title>
+</head>
+<body>
+
+    <form class="formulario">
+        <h1>CALCULAR MÉDIA ESCOLAR</h1>
+
+        <label for="nomeDoAluno">Nome do aluno:
+            <input type="text" id="nomeDoAluno" name="nome" required placeholder="Digite nome do aluno">
+        </label>
+
+        <label for="materia">Disciplina:
+            <select name="materia" id="materia" required>
+                <option value="">Selecione a matéria</option>
+                <option value="Português">Português</option>
+                <option value="Matemática">Matemática</option>
+                <option value="História">História</option>
+                <option value="Geografia">Geografia</option>
+                <option value="Ciências">Ciências</option>
+                <option value="Educação Física">Educação Física</option>
+                <option value="Religião">Religião</option>
+                <option value="Artes">Artes</option>
+                <option value="Inglês">Inglês</option>
+                <option value="Outra">Outra</option>
+            </select>
+        </label>
+
+        <p class="2">As notas devem ser de <mark>0 a 10</mark></p>
+
+        <label for="nota1">Primeira nota:
+            <input type="number" id="nota1" name="nota1" required placeholder="Primeira nota">
+        </label>  
+
+        <label for="nota2">Segunda nota:
+            <input type="number" id="nota2" name="nota2" required placeholder="Segunda nota">
+        </label>
+
+        <label for="nota3">Terceira nota:
+            <input type="number" id="nota3" name="nota3" required placeholder="Terceira nota">
+        </label> 
+
+        <button type="button" onclick="calcularMedia()">Calcular Média</button>
+
+        <p id="resultado"></p>  
+        
+        <div class="rodape">Desenvolvido por: Iago Costa</div>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+</html>
