@@ -25,4 +25,4 @@ O projeto é composto pelos seguintes arquivos:
 4. **Calcule a Média**: Pressione o botão "Calcular Média" ou pressione Enter no último campo de entrada para calcular a média.
 5. **Veja o Resultado**: O resultado será exibido na página, indicando se o aluno foi aprovado ou reprovado.
 
-## Estrutura do Código
+// Desenvolvido por: Iago Costa;
